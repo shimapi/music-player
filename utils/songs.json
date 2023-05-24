@@ -3,70 +3,70 @@
     "id": 1,
     "title": "Everlong",
     "artist": "Foo Fighters",
-    "cover": "../assets/images/everlong.jpg",
+    "albumImage": "../assets/images/everlong.jpg",
     "mp3": "../assets/mp3/everlong.mp3"
   },
   {
     "id": 2,
     "title": "Learn to Fly",
     "artist": "Foo Fighters",
-    "cover": "../assets/images/learn-to-fly.jpg",
+    "albumImage": "../assets/images/learn-to-fly.jpg",
     "mp3": "../assets/mp3/learn-to-fly.mp3"
   },
   {
     "id": 3,
     "title": "The Pretender",
     "artist": "Foo Fighters",
-    "cover": "../assets/images/the-pretender.jpg",
+    "albumImage": "../assets/images/the-pretender.jpg",
     "mp3": "../assets/mp3/the-pretender.mp3"
   },
   {
     "id": 4,
     "title": "Best of You",
     "artist": "Foo Fighters",
-    "cover": "../assets/images/best-of-you.jpg",
+    "albumImage": "../assets/images/best-of-you.jpg",
     "mp3": "../assets/mp3/best-of-you.mp3"
   },
   {
     "id": 5,
     "title": "My Hero",
     "artist": "Foo Fighters",
-    "cover": "../assets/images/my-hero.jpg",
+    "albumImage": "../assets/images/my-hero.jpg",
     "mp3": "../assets/mp3/my-hero.mp3"
   },
   {
     "id": 6,
     "title": "Times Like These",
     "artist": "Foo Fighters",
-    "cover": "../assets/images/times-like-these.jpg",
+    "albumImage": "../assets/images/times-like-these.jpg",
     "mp3": "../assets/mp3/times-like-these.mp3"
   },
   {
     "id": 7,
     "title": "All My Life",
     "artist": "Foo Fighters",
-    "cover": "../assets/images/all-my-life.jpg",
+    "albumImage": "../assets/images/all-my-life.jpg",
     "mp3": "../assets/mp3/all-my-life.mp3"
   },
   {
     "id": 8,
     "title": "Monkey Wrench",
     "artist": "Foo Fighters",
-    "cover": "../assets/images/monkey-wrench.jpg",
+    "albumImage": "../assets/images/monkey-wrench.jpg",
     "mp3": "../assets/mp3/monkey-wrench.mp3"
   },
   {
     "id": 9,
     "title": "Walk",
     "artist": "Foo Fighters",
-    "cover": "../assets/images/walk.jpg",
+    "albumImage": "../assets/images/walk.jpg",
     "mp3": "../assets/mp3/walk.mp3"
   },
   {
     "id": 10,
     "title": "This Is a Call",
     "artist": "Foo Fighters",
-    "cover": "../assets/images/this-is-a-call.jpg",
+    "albumImage": "../assets/images/this-is-a-call.jpg",
     "mp3": "../assets/mp3/this-is-a-call.mp3"
   }
 ]

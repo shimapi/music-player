@@ -1,29 +1,82 @@
 body {
 	color: blanchedalmond;
-	background-color: black;
+	background-color: #0a073c;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 1.4em;
+	padding-top: 50px;
 }
-header{
-  margin: auto;
-  width: 600px;
-  text-align: center;
+header {
+	margin: auto;
+	width: 600px;
+	text-align: center;
+	background-color: rgba(230, 229, 255, 0.5);
+	padding: 10px;
+	border-radius: 10px;
 }
-.container{
-  width: 600px;
-  display: flex;
-  text-align: center;
-  margin: auto;
+.container {
+	margin: 50px auto;
+	width: 600px;
+	display: flex;
+	text-align: center;
 }
-aside{
-  width: 40%;
+aside {
+	width: 40%;
 }
-main{
-  width: 60%;
+main {
+	width: 60%;
 }
-.player{
-  padding: 0 30px;
+.player {
+	padding: 30px;
+	border: 2px solid darkgrey;
+	border-radius: 10px;
 }
-.player__duration{
-  display: flex;
-  justify-content: space-between;
+.player-duration {
+	display: flex;
+	justify-content: space-between;
+}
+
+.player-progress {
+	width: 300px;
+	height: 5px;
+	padding: 25px 0 5px;
+}
+.player-progress-bar {
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+}
+.player-progress-bar-fill {
+	width: 20%;
+	height: 100%;
+	background-color: aquamarine;
+}
+
+.song-info {
+	display: flex;
+	text-align: left;
+	margin-bottom: 10px;
+	background-color: rgba(230, 229, 255, 0.2);
+	border-radius: 5px;
+	padding: 5px;
+}
+.song-image-container {
+}
+.song-image {
+	max-width: 60px;
+	margin-right: 10px;
+}
+.song-text {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-wrap: nowrap;
+	flex-direction: column;
+}
+.song-title {
+	font-size: 1em;
+	font-weight: normal;
+}
+.song-artist {
+	font-size: 0.6em;
+	font-weight: normal;
 }

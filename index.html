@@ -5,22 +5,29 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./index.css" />
+		<link rel="stylesheet" href="./utils/normalize.css" />
 		<title>Reproductor de Música</title>
 	</head>
 
 	<body>
 		<header>
 			<h1>Reproductor de Música</h1>
-			<p>Este es un reproductor de música en javascript.</p>
 		</header>
 		<div class="container">
-			<aside class="songsList">
-				<ul>
-					<li>Canción1</li>
-					<li>Canción2</li>
-					<li>Canción3</li>
-					<li>Canción4</li>
-				</ul>
+			<aside class="songs-list">
+				<div class="songs">
+					<template id="song-template">
+						<div class="song-info">
+							<div class="song-image-container">
+								<img class="song-image" src="" alt="" />
+							</div>
+							<div class="song-text">
+								<h3 class="song-title"></h3>
+								<h4 class="song-artist"></h4>
+							</div>
+						</div>
+					</template>
+				</div>
 			</aside>
 
 			<main>
@@ -29,24 +36,24 @@
 						<h2>Título Canción</h2>
 						<p>Artista</p>
 					</div>
-					<div class="player__controls">
-						<button class="player__button player__button-prev"><<</button>
-						<button class="player__button player__button-play">PLAY</button>
-						<button class="player__button player__button-pause">PAUSE</button>
-						<button class="player__button player__button-next">>></button>
+					<div class="player-controls">
+						<button class="player-button player-button__prev"><<</button>
+						<button class="player-button player-button__play">PLAY</button>
+						<button class="player-button player-button__pause">PAUSE</button>
+						<button class="player-button player-button__next">>></button>
 					</div>
-					<div class="player__progress">
-						<div class="player__progress-bar">
-							----------------------------------------------------------
+					<div class="player-progress">
+						<div class="player-progress-bar">
+							<div class="player-progress-bar-fill"></div>
 						</div>
 					</div>
-					<div class="player__duration">
-						<div class="player__duration-current">0:00</div>
-						<div class="player__duration-total">2:34</div>
+					<div class="player-duration">
+						<div class="player-duration-current">0:00</div>
+						<div class="player-duration-total">2:34</div>
 					</div>
 				</div>
 			</main>
 		</div>
-		<script src="./index.js"></script>
+		<script type="module" src="./index.js"></script>
 	</body>
 </html>
